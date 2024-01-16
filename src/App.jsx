@@ -15,6 +15,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
+          <Route index element={<Navigate replace to="connect" />} />
           <Route
             path="/connect"
             element={
