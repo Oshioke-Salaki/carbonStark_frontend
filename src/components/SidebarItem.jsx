@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom";
 function SidebarItem({ logo, title, to }) {
   return (
     <NavLink to={to}>
-      <div className="py-[18px] text-white text-lg w-[233px] font-semibold rounded-[50px] px-[26px] flex items-center gap-x-4">
-        <img src={logo} className="w-5 h-5" alt="" />
+      <div className="flex w-[233px] items-center gap-x-4 rounded-[5px] px-[26px] py-[18px] text-lg font-semibold text-white">
+        <img src={logo} className="h-5 w-5" alt="" />
         <h3>{title}</h3>
       </div>
     </NavLink>
