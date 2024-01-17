@@ -8,7 +8,7 @@ function LandingBanner() {
         Step into the future of carbon offsetting powered by blockchain. Your
         commitment today shapes a cleaner, more resilient planet
       </p>
-      <button className="inline-block rounded-[50px] bg-primaryColor px-[134px] py-[18px] text-sm font-semibold text-white">
+      <button className="inline-block rounded-[50px] bg-primaryColor px-[134px] py-[18px] text-sm font-semibold text-white transition-all duration-300 ease-in-out hover:translate-y-[-10px]">
         Get started
       </button>
     </div>
