@@ -1,14 +1,14 @@
 function LandingBanner() {
   return (
-    <div className="bg-white50 text-center text-darkPrimary w-full pt-[83px] pb-[31px] flex flex-col items-center px-5">
-      <h1 className="text-[70px] font-extrabold mb-[23px]">
-        Blockchain, <span className="text-primaryColor">Carbon,</span> Impact
+    <div className="flex w-full flex-col items-center bg-white50 px-5 pb-[31px] pt-[83px] text-center text-darkPrimary">
+      <h1 className="mb-[23px] text-[70px] font-extrabold">
+        Starknet. <span className="text-primaryColor">Carbon.</span> Impact.
       </h1>
-      <p className="text-black text-lg font-bold mb-[32px]">
+      <p className="mb-[32px] text-lg font-bold text-black">
         Step into the future of carbon offsetting powered by blockchain. Your
         commitment today shapes a cleaner, more resilient planet
       </p>
-      <button className="py-[18px] rounded-[50px] px-[134px] inline-block text-white text-sm font-semibold bg-primaryColor">
+      <button className="inline-block rounded-[50px] bg-primaryColor px-[134px] py-[18px] text-sm font-semibold text-white">
         Get started
       </button>
     </div>
